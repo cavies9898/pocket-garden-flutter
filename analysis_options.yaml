@@ -1,0 +1,28 @@
+include: package:very_good_analysis/analysis_options.11.0.0.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - lib/core/localization/generated/**
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    # The app intentionally uses complete public API docs only on domain
+    # contracts. Documenting every widget constructor adds noise.
+    public_member_api_docs: false
+    # Formatting is handled by dart format; long localizations are clearer
+    # in a single line.
+    lines_longer_than_80_chars: false
+    # Dart 3.13 introduced `const new()` constructor declarations. We keep the
+    # explicit class name for readability and familiarity to Flutter reviewers.
+    unnecessary_type_name_in_constructor: false
+    # Async file checks keep filesystem work off the UI isolate. The sync APIs
+    # would be worse for this app's responsiveness.
+    avoid_slow_async_io: false

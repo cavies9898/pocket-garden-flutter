@@ -1,0 +1,183 @@
+{
+  "@@locale": "es",
+  "appTitle": "Pocket Garden",
+  "plantsTab": "Plantas",
+  "settingsTab": "Ajustes",
+  "plantsTitle": "Mis plantas",
+  "addPlant": "Añadir planta",
+  "retry": "Reintentar",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "save": "Guardar",
+  "errorGeneric": "Algo salió mal. Inténtalo de nuevo.",
+  "errorDatabase": "No pudimos acceder a los datos locales de tu jardín.",
+  "errorStorage": "No pudimos acceder a un archivo de este dispositivo.",
+  "errorUnexpected": "Ocurrió un error inesperado.",
+  "errorCatalog": "No se pudo cargar el catálogo de plantas.",
+  "errorSettings": "No se pudieron guardar tus preferencias.",
+  "loadingPlants": "Cargando tus plantas",
+  "emptyPlantsTitle": "Tu jardín te espera",
+  "emptyPlantsBody": "Añade tu primera planta y ten su cuidado siempre a mano.",
+  "addFirstPlant": "Añadir mi primera planta",
+  "plantLocationIndoor": "Interior",
+  "plantLocationOutdoor": "Exterior",
+  "careGuideTitle": "Guía de cuidados",
+  "careWateringTitle": "Riego",
+  "careFertilizingTitle": "Abono",
+  "careLightTitle": "Luz",
+  "careEveryDays": "{count, plural, =1{Cada día} other{Cada {count} días}}",
+  "@careEveryDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lightLow": "Poca luz",
+  "lightMedium": "Luz media",
+  "lightBrightIndirect": "Luz abundante e indirecta",
+  "lightFullSun": "Sol directo",
+  "plantNotesTitle": "Notas",
+  "plantAddedOn": "Añadida el {date}",
+  "@plantAddedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "plantUpdatedOn": "Actualizada el {date}",
+  "@plantUpdatedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "editPlant": "Editar planta",
+  "deletePlant": "Eliminar planta",
+  "deletePlantTitle": "¿Eliminar {nickname}?",
+  "@deletePlantTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "deletePlantBody": "Se eliminarán la planta, sus notas y su foto de este dispositivo. Esta acción no se puede deshacer.",
+  "plantDeleted": "Se eliminó {nickname}.",
+  "@plantDeleted": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "newPlantTitle": "Nueva planta",
+  "editPlantTitle": "Editar {nickname}",
+  "@editPlantTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "nicknameLabel": "Apodo",
+  "nicknameHint": "p. ej. Monstera del salón",
+  "speciesLabel": "Especie",
+  "speciesHint": "Elige una especie",
+  "locationLabel": "Ubicación",
+  "notesLabel": "Notas (opcional)",
+  "notesHint": "Luz, tamaño de la maceta, lo que quieras recordar…",
+  "photoSectionTitle": "Foto",
+  "addPhoto": "Añadir foto",
+  "changePhoto": "Cambiar foto",
+  "removePhoto": "Quitar foto",
+  "choosePhotoSourceTitle": "Añadir una foto de la planta",
+  "takePhoto": "Hacer una foto",
+  "chooseFromGallery": "Elegir de la galería",
+  "cameraPermissionTitle": "Acceso a la cámara",
+  "cameraPermissionBody": "Pocket Garden usa la cámara solo para fotografiar tu planta. Las fotos se quedan en este dispositivo.",
+  "cameraPermissionAction": "Continuar",
+  "permissionDenied": "Se denegó el acceso a la cámara. Puedes activarlo en los ajustes del sistema o elegir una foto de la galería.",
+  "photoPickerError": "No pudimos abrir esa foto. Prueba con otra.",
+  "validationNicknameRequired": "Ponle un apodo a tu planta.",
+  "validationNicknameTooLong": "El apodo debe tener menos de 60 caracteres.",
+  "validationSpeciesRequired": "Elige una especie.",
+  "validationNotesTooLong": "Las notas deben tener menos de 500 caracteres.",
+  "validationUnknown": "Revisa este campo.",
+  "savePlant": "Guardar planta",
+  "loadingForm": "Cargando formulario",
+  "saving": "Guardando…",
+  "plantNotFoundTitle": "Planta no encontrada",
+  "plantNotFoundBody": "Puede que se haya eliminado de este dispositivo.",
+  "backToPlants": "Volver a mis plantas",
+  "appearanceTitle": "Apariencia",
+  "appearanceSystem": "Sistema",
+  "appearanceLight": "Claro",
+  "appearanceDark": "Oscuro",
+  "languageTitle": "Idioma",
+  "languageSystem": "Idioma del sistema",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+    "localOnlyTitle": "Privado por diseño",
+  "localOnlyBody": "Tus plantas, fotos y notas se quedan en este dispositivo. Pocket Garden nunca se conecta a internet.",
+  "settingsLoading": "Guardando preferencia…",
+"settingsTitle": "Ajustes",
+  "settingsUpdateError": "No se pudo guardar tu preferencia.",
+  "startupLoading": "Preparando tu jardín…",
+  "startupErrorTitle": "No se pudo abrir el jardín",
+  "startupErrorBody": "Tus datos locales están a salvo. Vuelve a abrir la app para intentarlo de nuevo.",
+  "startupRetry": "Intentar de nuevo",
+  "plantPhotoSemantics": "Foto de {nickname}",
+  "@plantPhotoSemantics": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "openPlantSemantics": "Abrir {nickname}, {species}, {location}",
+  "@openPlantSemantics": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      },
+      "species": {
+        "type": "String"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "optionalLabel": "Opcional",
+  "notesEmpty": "Todavía no hay notas.",
+  "careInfoSemantics": "{title}: {value}",
+  "@careInfoSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plantDetailsTitle": "Detalles de la planta",
+  "formLoadError": "No se pudo cargar esta planta en el formulario.",
+  "formLoadRetry": "Recargar formulario",
+  "photoPreviewSemantics": "Foto seleccionada de la planta",
+  "settingsSemantics": "Ajustes de Pocket Garden",
+  "themeModeSemantics": "Tema: {mode}",
+  "@themeModeSemantics": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  }
+,
+  "routeNotFoundTitle": "Esta ruta no existe",
+  "routeNotFoundBody": "Volvamos a tu jardín."
+}

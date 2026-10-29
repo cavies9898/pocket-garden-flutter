@@ -1,0 +1,183 @@
+{
+  "@@locale": "en",
+  "appTitle": "Pocket Garden",
+  "plantsTab": "Plants",
+  "settingsTab": "Settings",
+  "plantsTitle": "My plants",
+  "addPlant": "Add plant",
+  "retry": "Retry",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "save": "Save",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "errorDatabase": "We couldn't access your local garden data.",
+  "errorStorage": "We couldn't access a file on this device.",
+  "errorUnexpected": "An unexpected error occurred.",
+  "errorCatalog": "The plant catalog couldn't be loaded.",
+  "errorSettings": "Your preferences couldn't be saved.",
+  "loadingPlants": "Loading your plants",
+  "emptyPlantsTitle": "Your garden is waiting",
+  "emptyPlantsBody": "Add your first plant and keep its care routine close.",
+  "addFirstPlant": "Add my first plant",
+  "plantLocationIndoor": "Indoor",
+  "plantLocationOutdoor": "Outdoor",
+  "careGuideTitle": "Care guide",
+  "careWateringTitle": "Watering",
+  "careFertilizingTitle": "Fertilizing",
+  "careLightTitle": "Light",
+  "careEveryDays": "{count, plural, =1{Every day} other{Every {count} days}}",
+  "@careEveryDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lightLow": "Low light",
+  "lightMedium": "Medium light",
+  "lightBrightIndirect": "Bright, indirect light",
+  "lightFullSun": "Full sun",
+  "plantNotesTitle": "Notes",
+  "plantAddedOn": "Added {date}",
+  "@plantAddedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "plantUpdatedOn": "Updated {date}",
+  "@plantUpdatedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "editPlant": "Edit plant",
+  "deletePlant": "Delete plant",
+  "deletePlantTitle": "Delete {nickname}?",
+  "@deletePlantTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "deletePlantBody": "This removes the plant, its notes and its photo from this device. This can't be undone.",
+  "plantDeleted": "{nickname} was deleted.",
+  "@plantDeleted": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "newPlantTitle": "New plant",
+  "editPlantTitle": "Edit {nickname}",
+  "@editPlantTitle": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "nicknameLabel": "Nickname",
+  "nicknameHint": "e.g. Monstera by the sofa",
+  "speciesLabel": "Species",
+  "speciesHint": "Choose a species",
+  "locationLabel": "Location",
+  "notesLabel": "Notes (optional)",
+  "notesHint": "Light, pot size, anything you want to remember…",
+  "photoSectionTitle": "Photo",
+  "addPhoto": "Add photo",
+  "changePhoto": "Change photo",
+  "removePhoto": "Remove photo",
+  "choosePhotoSourceTitle": "Add a plant photo",
+  "takePhoto": "Take a photo",
+  "chooseFromGallery": "Choose from gallery",
+  "cameraPermissionTitle": "Camera access",
+  "cameraPermissionBody": "Pocket Garden uses the camera only to take a photo of your plant. Photos stay on this device.",
+  "cameraPermissionAction": "Continue",
+  "permissionDenied": "Camera access was denied. You can enable it in system settings or choose a photo from the gallery.",
+  "photoPickerError": "We couldn't open that photo. Please try another one.",
+  "validationNicknameRequired": "Give your plant a nickname.",
+  "validationNicknameTooLong": "Keep the nickname under 60 characters.",
+  "validationSpeciesRequired": "Choose a species.",
+  "validationNotesTooLong": "Keep notes under 500 characters.",
+  "validationUnknown": "Please check this field.",
+  "savePlant": "Save plant",
+  "loadingForm": "Loading plant form",
+  "saving": "Saving…",
+  "plantNotFoundTitle": "Plant not found",
+  "plantNotFoundBody": "It may have been deleted from this device.",
+  "backToPlants": "Back to my plants",
+  "appearanceTitle": "Appearance",
+  "appearanceSystem": "System",
+  "appearanceLight": "Light",
+  "appearanceDark": "Dark",
+  "languageTitle": "Language",
+  "languageSystem": "System language",
+  "languageEnglish": "English",
+  "languageSpanish": "Español",
+    "localOnlyTitle": "Private by design",
+  "localOnlyBody": "Your plants, photos and notes stay on this device. Pocket Garden never connects to the internet.",
+  "settingsLoading": "Saving preference…",
+"settingsTitle": "Settings",
+  "settingsUpdateError": "Your preference couldn't be saved.",
+  "startupLoading": "Preparing your garden…",
+  "startupErrorTitle": "The garden couldn't open",
+  "startupErrorBody": "Your local data is safe. Try opening the app again.",
+  "startupRetry": "Try again",
+  "plantPhotoSemantics": "Photo of {nickname}",
+  "@plantPhotoSemantics": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      }
+    }
+  },
+  "openPlantSemantics": "Open {nickname}, {species}, {location}",
+  "@openPlantSemantics": {
+    "placeholders": {
+      "nickname": {
+        "type": "String"
+      },
+      "species": {
+        "type": "String"
+      },
+      "location": {
+        "type": "String"
+      }
+    }
+  },
+  "optionalLabel": "Optional",
+  "notesEmpty": "No notes yet.",
+  "careInfoSemantics": "{title}: {value}",
+  "@careInfoSemantics": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plantDetailsTitle": "Plant details",
+  "formLoadError": "The form couldn't load this plant.",
+  "formLoadRetry": "Reload form",
+  "photoPreviewSemantics": "Selected plant photo",
+  "settingsSemantics": "Pocket Garden settings",
+  "themeModeSemantics": "Theme: {mode}",
+  "@themeModeSemantics": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  }
+,
+  "routeNotFoundTitle": "This path does not exist",
+  "routeNotFoundBody": "Let us take you back to your garden."
+}

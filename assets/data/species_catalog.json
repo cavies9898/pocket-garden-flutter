@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "species": [
+    {
+      "id": "monstera-deliciosa",
+      "common_name_en": "Monstera",
+      "common_name_es": "Monstera",
+      "scientific_name": "Monstera deliciosa",
+      "description_en": "A tropical climber with large split leaves. It prefers a warm spot with bright, indirect light and a chance to dry out slightly between waterings.",
+      "description_es": "Una trepadora tropical de hojas grandes y rasgadas. Prefiere un lugar cálido con luz abundante e indirecta y que el sustrato se seque ligeramente entre riegos.",
+      "watering_frequency_days": 7,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "bright_indirect"
+    },
+    {
+      "id": "snake-plant",
+      "common_name_en": "Snake plant",
+      "common_name_es": "Sansevieria",
+      "scientific_name": "Dracaena trifasciata",
+      "description_en": "An forgiving succulent with upright, patterned leaves. Let the soil dry completely and avoid overwatering, especially in winter.",
+      "description_es": "Una suculenta resistente de hojas erguidas y estampadas. Deja que el sustrato se seque por completo y evita el exceso de riego, sobre todo en invierno.",
+      "watering_frequency_days": 14,
+      "fertilizing_frequency_days": 45,
+      "light_requirement": "low"
+    },
+    {
+      "id": "pothos",
+      "common_name_en": "Golden pothos",
+      "common_name_es": "Potos dorado",
+      "scientific_name": "Epipremnum aureum",
+      "description_en": "A trailing vine that adapts to many homes. It tolerates lower light but grows best with medium, indirect light.",
+      "description_es": "Una enredadera colgante que se adapta a casi cualquier hogar. Tolera poca luz, pero crece mejor con luz media e indirecta.",
+      "watering_frequency_days": 7,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "medium"
+    },
+    {
+      "id": "peace-lily",
+      "common_name_en": "Peace lily",
+      "common_name_es": "Lirio de la paz",
+      "scientific_name": "Spathiphyllum wallisii",
+      "description_en": "Glossy leaves and white spathes. Keep the soil lightly moist and protect it from harsh afternoon sun.",
+      "description_es": "Hojas brillantes y flores blancas. Mantén el sustrato ligeramente húmedo y protégelo del sol fuerte de la tarde.",
+      "watering_frequency_days": 5,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "medium"
+    },
+    {
+      "id": "fiddle-leaf-fig",
+      "common_name_en": "Fiddle-leaf fig",
+      "common_name_es": "Ficus lira",
+      "scientific_name": "Ficus lyrata",
+      "description_en": "A statement tree with violin-shaped leaves. It likes stable conditions, bright indirect light and consistent watering.",
+      "description_es": "Un árbol llamativo de hojas con forma de violín. Agradece condiciones estables, luz abundante e indirecta y riegos constantes.",
+      "watering_frequency_days": 7,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "bright_indirect"
+    },
+    {
+      "id": "aloe-vera",
+      "common_name_en": "Aloe vera",
+      "common_name_es": "Aloe vera",
+      "scientific_name": "Aloe vera",
+      "description_en": "A drought-tolerant succulent that needs gritty soil and plenty of sun. Water deeply, then let the soil dry.",
+      "description_es": "Una suculenta resistente a la sequía que necesita sustrato drenante y mucho sol. Riega a fondo y deja secar el sustrato.",
+      "watering_frequency_days": 14,
+      "fertilizing_frequency_days": 60,
+      "light_requirement": "full_sun"
+    },
+    {
+      "id": "basil",
+      "common_name_en": "Basil",
+      "common_name_es": "Albahaca",
+      "scientific_name": "Ocimum basilicum",
+      "description_en": "A fragrant culinary herb that loves warmth and sun. Pinch the tips often and keep the soil evenly moist.",
+      "description_es": "Una hierba aromática que adora el calor y el sol. Poda las puntas con frecuencia y mantén el sustrato uniformemente húmedo.",
+      "watering_frequency_days": 3,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "full_sun"
+    },
+    {
+      "id": "lavender",
+      "common_name_en": "Lavender",
+      "common_name_es": "Lavanda",
+      "scientific_name": "Lavandula angustifolia",
+      "description_en": "A sun-loving Mediterranean shrub. It needs excellent drainage and more dry days than wet ones.",
+      "description_es": "Un arbusto mediterráneo amante del sol. Necesita un drenaje excelente y más días secos que húmedos.",
+      "watering_frequency_days": 10,
+      "fertilizing_frequency_days": 60,
+      "light_requirement": "full_sun"
+    },
+    {
+      "id": "moth-orchid",
+      "common_name_en": "Moth orchid",
+      "common_name_es": "Orquídea mariposa",
+      "scientific_name": "Phalaenopsis",
+      "description_en": "An epiphyte with long-lasting flowers. Water the bark mix when it feels dry, never leave roots sitting in water.",
+      "description_es": "Una epífita de flores duraderas. Riega la mezcla de corteza cuando esté seca y nunca dejes las raíces en agua.",
+      "watering_frequency_days": 7,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "bright_indirect"
+    },
+    {
+      "id": "golden-barrel-cactus",
+      "common_name_en": "Golden barrel cactus",
+      "common_name_es": "Cactus barril dorado",
+      "scientific_name": "Echinocactus grusonii",
+      "description_en": "A sculptural desert cactus. Give it maximum sun, very gritty soil and sparse watering.",
+      "description_es": "Un cactus del desierto muy escultórico. Dale el máximo de sol, un sustrato muy drenante y riegos espaciados.",
+      "watering_frequency_days": 21,
+      "fertilizing_frequency_days": 90,
+      "light_requirement": "full_sun"
+    },
+    {
+      "id": "spider-plant",
+      "common_name_en": "Spider plant",
+      "common_name_es": "Cinta",
+      "scientific_name": "Chlorophytum comosum",
+      "description_en": "A cheerful, easy plant that produces baby plantlets. It enjoys medium light and regular but moderate watering.",
+      "description_es": "Una planta alegre y sencilla que produce hijuelos. Agradece luz media y riegos regulares pero moderados.",
+      "watering_frequency_days": 7,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "medium"
+    },
+    {
+      "id": "mint",
+      "common_name_en": "Mint",
+      "common_name_es": "Menta",
+      "scientific_name": "Mentha spicata",
+      "description_en": "A vigorous herb that spreads quickly. Keep it in a pot, water often and harvest regularly.",
+      "description_es": "Una hierba vigorosa que se extiende rápido. Mantenla en maceta, riega a menudo y cosecha con regularidad.",
+      "watering_frequency_days": 3,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "medium"
+    },
+    {
+      "id": "cherry-tomato",
+      "common_name_en": "Cherry tomato",
+      "common_name_es": "Tomate cherry",
+      "scientific_name": "Solanum lycopersicum",
+      "description_en": "A productive fruiting plant for sunny balconies. It drinks a lot, needs support and benefits from regular feeding.",
+      "description_es": "Una planta productiva para balcones soleados. Bebe mucha agua, necesita tutores y agradece abono regular.",
+      "watering_frequency_days": 2,
+      "fertilizing_frequency_days": 14,
+      "light_requirement": "full_sun"
+    },
+    {
+      "id": "boston-fern",
+      "common_name_en": "Boston fern",
+      "common_name_es": "Helecho de Boston",
+      "scientific_name": "Nephrolepis exaltata",
+      "description_en": "A lush fern that loves humidity. Keep it away from radiators and water before the soil dries completely.",
+      "description_es": "Un helecho frondoso que adora la humedad. Aléjalo de los radiadores y riega antes de que el sustrato se seque del todo.",
+      "watering_frequency_days": 4,
+      "fertilizing_frequency_days": 30,
+      "light_requirement": "medium"
+    }
+  ]
+}
